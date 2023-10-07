@@ -8,7 +8,7 @@ const typeDefs = gql`
   }
 
   extend type Query {
-    getCacheChat(location: String!, personality: String!): CacheChat!
+    getCacheChat(location: String!, personality: String!): String!
   }
 `;
 
